@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Responsive Landing Page</title>
+</head>
+<body>
+    <div class="header">
+		<div class="nav">
+			<u1 class="menu-bar">
+				<li>home</li>
+				<li>blog</li>
+				<li>video</li>
+				<li>contact</li>
+				<li>about</li>
+        	</u1>
+
+			
+		</div>
+	</div>
+	<div class="bottom-nav">
+		<a class="active" href="">home</a>	
+		<a href="">logout</a>
+		<a href="">dashboard</a>
+	    <a href="">service</a>
+		<a class="left" href="2ndpage.html">sign in</a>
+	</div>
+
+
+	<div class="fab">
+		<img src="window close.png" alt="">
+    </div>
+
+	<div class="box">
+		<a herf="" class="item item1"><img src="clipart-whatsapp-logo-5.png" alt=""></a>
+		<a herf="" class="item item2"><img src="instagram.png" alt=""></a>
+		<a herf="" class="item item3"><img src="facebook.png" alt=""></a>
+		<a herf="" class="item item4"><img src="twitter.png" alt=""></a>
+	</div>
+
+	<div class="pages" style="background-color: white;">
+		<h4>PAGES</h4> 
+		<a  href="index.html">1|</a> 
+		<a  href="2ndpage.html">2|</a> 
+		<a  href="3ndpage.html">3|</a> 
+	  </div>   
+
+	<script>
+		document.querySelector('.fab').addEventListener('click',function(e){
+			document.querySelector('.box').classList.toggle('box-active');
+			document.querySelector('.fab').classList.toggle('fab-active');
+		});
+
+	</script>
+
+</div>
+
+</body>
+</html>
